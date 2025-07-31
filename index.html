@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+  <title>Invitación - 18 Años Fernanda</title>
+  <style>
+    body {
+      font-family: 'Dancing Script', sans-serif;
+      background: linear-gradient(to right, #fbe8f9, #fdf6fa);
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+       background: url('fondoinv.jpg') no-repeat center center;
+      background-size: cover;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      padding: 25px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3.4em;
+      color: #c2185b;
+    }
+    h2 {
+      font-size: 2.5em;
+      color: #d27e79;
+      margin-top: 30px;
+    }
+    .highlight {
+      font-size: 5em;
+      font-weight: bold;
+      color: #d27e79;
+    }
+    p {
+      font-size: 2em;
+      
+    }
+
+    .fecha-decorada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 30px 0 15px 0;
+  flex-wrap: wrap;
+}
+
+.bloque {
+  text-align: center;
+}
+
+.bloque hr {
+  border: none;
+  border-top: 2px solid #e0c78f;
+  width: 170px;
+  margin: 0 auto 8px auto;
+}
+
+.bloque .texto {
+  display: block;
+  font-size: 2em;
+  font-family: 'Georgia', serif;
+  color: #d07b8c;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.bloque .subdecoracion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.subdecoracion .linea {
+  width: 170px;
+  height: 2px;
+  background-color: #f3e490;
+  margin: 0 5px;
+}
+
+.subdecoracion .punto {
+  font-size: 2em;
+  color: #f3e490;
+}
+
+.central .numero {
+  font-size: 6em;
+  color: #d07b8c;
+  font-family: 'Georgia', serif;
+}
+
+    .details {
+      margin: 20px 0;
+    }
+    .map-link {
+      display: inline-block;
+      margin-top: 10px;
+      font-weight: bold;
+      text-decoration: none;
+      background: #d27e79;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 1.5em;
+    }
+    .rsvp {
+      margin-top: 35px;
+    }
+    .rsvp input {
+      padding: 10px;
+      margin-top: 10px;
+      width: 90%;
+      max-width: 350px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    .rsvp button {
+      margin-top: 15px;
+      padding: 10px 25px;
+      background-color: #e6c666;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1.5em;
+    }
+    .whatsapp-button {
+  margin-top: 15px;
+      padding: 10px 25px;
+      background-color: #e6c666;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1.5em;
+}
+
+    footer {
+      margin-top: 40px;
+      font-size: 1.5em;
+      color: #aaa;
+    }
+
+
+    /* Media query para pantallas pequeñas */
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.8em;
+      }
+      .highlight {
+        font-size: 2.5em;
+      }
+      h2 {
+        font-size: 1.3em;
+      }
+      p {
+        font-size: 1em;
+      }
+      .map-link {
+        padding: 8px 15px;
+        font-size: 0.95em;
+      }
+    }
+  </style>
+</head>
+<body onclick="PlayAudio()">
+  <div class="container">
+    <p class="highlight" > 18 <br> años <br> Fernanda </p>
+    
+    
+
+    <p>Existen momentos en la vida que imaginamos, soñamos y esperamos.<br>¡Uno de esos momentos ha llegado!</p>
+    <p>Y deseo compartirlo con las personas que siempre están presentes en mi vida.<br><strong>Tú eres una de ellas.</strong></p>
+
+    <div class="fecha-decorada">
+  <div class="bloque">
+    <hr>
+    <span class="texto">SÁBADO</span>
+    <div class="subdecoracion"><span class="linea"></span><span class="punto">•</span></div>
+  </div>
+
+  <div class="bloque central">
+    <span class="numero">18</span>
+  </div>
+
+  <div class="bloque">
+    <hr>
+    <span class="texto">OCTUBRE</span>
+    <div class="subdecoracion"><span class="punto">•</span><span class="linea"></span></div>
+  </div>
+</div>
+
+
+    <div class="details">
+      <h2>Ceremonia Religiosa</h2>
+      <p><strong>Parroquia del Sagrado Corazón de Jesús</strong><br>
+        Holanda MZ. 024, México 86<br>
+        <strong>15:45 hrs</strong></p>
+      <a class="map-link" href="https://maps.app.goo.gl/tv3wVdbA7BWFaANt8" target="_blank">Ver ubicación</a>
+
+      <h2>Recepción</h2>
+      <p><strong>Salón de Eventos Grace</strong><br>
+        Calle Los Arcos, 4 de Mayo<br>
+        <strong>A partir de las 17:30 hrs</strong></p>
+      <a class="map-link" href="https://maps.app.goo.gl/zL526LGUqmfsYZGS7" target="_blank">Ver ubicación</a>
+    </div>
+
+    <div class="rsvp">
+      <h2>Confirma tu asistencia</h2>
+      <a href="https://wa.me/5215568604848?text=Hola%2C%20confirmo%20mi%20asistencia%20a%20la%20fiesta%20de%20Fernanda%20el%2018%20de%20octubre%20" 
+   class="whatsapp-button" 
+   target="_blank">
+  Confirmar
+</a>
+
+    </div>
+
+    <footer>
+      ¡Será un honor contar con tu presencia!<br>Con cariño, Fernanda 
+    </footer>
+  </div>
+  <audio id="musica" loop>
+  <source src="musicafondo.mp3" type="audio/mpeg">
+  Tu navegador no soporta audio HTML5.
+</audio>
+
+<script>
+  function PlayAudio(){
+    document.getElementById("musica").play();
+  }
+   
+</script>
+</body>
+
+
+</html>
